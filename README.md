@@ -12,7 +12,7 @@ source code (and\or executive file) for professional courses crawler, courses cr
 
 You can simply run them on your computer through python 3.5+
 
-Both automatic_assessment.py and professional_courses_scraper.py are based on Chromedriver; while optional_courses_scraper.py is directly achieved by the package: request.
+Both automatic_assessment.py and professional_courses_scraper.py are based on Selenium and Chromedriver; while optional_courses_scraper.py is directly achieved by the package: request.
 
 Beautifulsoup is not used.
 
