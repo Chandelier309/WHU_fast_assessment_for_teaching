@@ -1,7 +1,6 @@
 import requests
 import re
 import xlwt as x
-from selenium import webdriver
 import time
 
 url0 = 'http://210.42.121.134/stu/choose_PubLsn_list.jsp'
