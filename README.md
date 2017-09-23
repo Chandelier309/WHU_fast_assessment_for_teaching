@@ -11,6 +11,6 @@ source code (and\or executive file) for professional courses crawler, courses cr
 First of all, you need a valid account, i.e., a user id for Wuhan University's educational adminitration system.
 Second, you ought to install Python dependencies required by those python code:
 * packages like 
-* [Chromedriver] (https://sites.google.com/a/chromium.org/chromedriver/downloads) as well as 
-* [Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
-* [Phantomjs] (http://phantomjs.org/download.html)
+* [Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) as well as 
+* [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+* [Phantomjs](http://phantomjs.org/download.html)
