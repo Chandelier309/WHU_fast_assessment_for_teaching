@@ -11,6 +11,9 @@ urlpicture = 'http://210.42.121.134/servlet/GenImg'
 headers={"user-agent":user_agent}
 cookies = {}
 
+codeid = input('input your id: ')
+codepw = input('input your password: ')
+
 
 def login():
     respicture = requests.get(urlpicture, headers=headers)
@@ -18,7 +21,7 @@ def login():
     with open('code.jpg', 'wb') as img:
         img.write(respicture.content)
     code = input('input the code: ')
-    form = {'id': "2014300950050", "pwd": "38192f600622170fea2f9297bf86cf32", "xdvfb": code}  # 登录所需信息
+    form = {'id': codeid, "pwd": codepw, "xdvfb": code}  # 登录所需信息
     requests.post(urllogin, headers=headers, data=form, cookies=cookies)  # 模拟登录教务系统
 
 
@@ -81,14 +84,9 @@ def grab():
             continue
 
     file.save('E:\Python\schoolsystemscrape\Courses.xls')
+
 try:
     grab()
 except:
     login()
     grab()
-
-driver = webdriver.PhantomJS(executable_path='')
-driver.get("http://pythonscraping.com/pages/javascript/ajaxDemo.html")
-time.sleep(3)
-print(driver.find_element_by_id("content").text)
-driver.close()
