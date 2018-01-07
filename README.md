@@ -3,7 +3,9 @@
 武大教务系统Python爬虫
 
 ## Description
-一个针对[武汉大学教务系统](210.42.121.132)的Python网络爬虫:包括专业课爬虫,公选课爬虫和一键评教(其实并不能只用一键).
+一个针对[武汉大学教务系统](210.42.121.132)的Python网络爬虫:包括专业课爬虫,公选课爬虫和[一键评教(其实并不能只用一键).](https://github.com/Chandelier309/WHU_educational_administration_system_scraper/tree/master/automatic_assessment_for_your_teachers)
+
+一键评教需要用户自己打分自己输入验证码, [see there](https://github.com/Chandelier309/WHU_educational_administration_system_scraper/tree/master/automatic_assessment_for_your_teachers).
 
 A web crawler written by python for Wuhan University's educational adminitration system: including professional courses crawler, elective courses crawler and automatic (in fact, not totally automatic) assessment for your teachers.
 
