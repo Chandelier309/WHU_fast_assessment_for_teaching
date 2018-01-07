@@ -1,4 +1,4 @@
-# 邢嘉力 最后编辑于 2017-6-11
+# 最后编辑于 2017-6-11
 
 0.现在只支持谷歌浏览器用户.如果你没有安装,请访问https://www.google.cn/chrome/browser/desktop/index.html
 下载并安装.
