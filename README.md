@@ -3,9 +3,9 @@
 武大教务系统快速评教程序
 
 ## Description
-一个[一键评教脚本和可执行文件(其实并不能只用一键).](https://github.com/Chandelier309/WHU_fast_assessment_for_teaching/tree/master/automatic_assessment_for_your_teachers)
+一个[一键评教脚本和可执行文件(其实并不能只用一键).](https://github.com/Chandelierx/WHU_fast_assessment_for_teaching/tree/master/automatic_assessment_for_your_teachers)
 
-一键评教需要用户自己打分自己输入验证码, ![see there](https://github.com/Chandelier309/WHU_fast_assessment_for_teaching/blob/master/example.png).
+一键评教需要用户自己打分自己输入验证码, ![see there](https://github.com/Chandelierx/WHU_fast_assessment_for_teaching/blob/master/example.png).
 
 A automatic (in fact, not totally automatic) assessment for your teachers.
 
